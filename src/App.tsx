@@ -1,6 +1,12 @@
 import Text from "./components/text";
 import TrashIcon from "./assets/icons/Trash-Regular.svg?react";
+import CheckIcon from "./assets/icons/Check-Regular.svg?react";
+import PencilIcon from "./assets/icons/PencilSimple-Regular.svg?react";
+import PlusIcon from "./assets/icons/Plus-Regular.svg?react";
+import SpinnerIcon from "./assets/icons/spinner.svg?react";
+import XIcon from "./assets/icons/X-Regular.svg?react";
 import Icon from "./components/icon"
+
 
 export default function App(){
   return (
@@ -22,6 +28,11 @@ export default function App(){
     </div>
       <div className="flex gap-1">
          <Icon svg={TrashIcon} className="fill-green-base" />
+         <Icon svg={CheckIcon} />
+         <Icon svg={PlusIcon} />
+         <Icon svg={SpinnerIcon} animate />
+         <Icon svg={PencilIcon} />
+         <Icon svg={XIcon} />
       </div>
   </div>
   );
