@@ -9,7 +9,6 @@ export default function PageHome(){
             <TasksSummary />
         </header>
 
-
     
         <TasksList />
      
